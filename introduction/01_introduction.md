@@ -103,7 +103,7 @@ console.log('Hey'.startsWith('H')); // Prints true
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 ## 8. Built-in Objects
-In addition to console, there are other objects built into JavaScript. Yo can also build your own objects.
+In addition to console, there are other objects built into JavaScript. You can also build your own objects.
 
 The great thing about objects is that they have methods.
 

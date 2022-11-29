@@ -4,14 +4,14 @@
 - Variable names cannot start with numbers.
 - Variable names are case sensitive
 - Variable names cannot be the same as keywords
-
-`var myName = 'Arya'`
-`console.log(myName)`
-
+```
+var myName = 'Arya'
+console.log(myName)
+```
 ## 2. Create a Variable: let
-The let keyword signals that the variable can be reassigned a different value. 
+The `let` keyword signals that the variable can be reassigned a different value. 
 
-we can declare a variable without assigning the variable a value. In such a case, the variable will be automatically initialized with a value of undefined
+We can declare a variable without assigning the variable a value. In such a case, the variable will be automatically initialized with a value of `undefined`
 ```
 let price;
 console.log(price); // Output: undefined
@@ -51,8 +51,8 @@ The + operator can be used to combine two string values even if those values are
  // Output: 'I own a pet armadillo.'
 ```
 
-# 7. String Interpolation
-we can insert, or interpolate, variables into strings using template literals. 
+## 7. String Interpolation
+We can insert, or interpolate, variables into strings using template literals. 
 ```
 const myPet = 'armadillo';
 console.log(`I own a pet ${myPet}.`);
@@ -62,7 +62,7 @@ console.log(`I own a pet ${myPet}.`);
 - Inside the template literal, you’ll see a placeholder, ${myPet}. The value of myPet is inserted into the template literal.
 
 ## 8. typeof operator
-The typeof operator checks the value to its right and returns, or passes back, a string of the data type.
+The typeof operator checks the value to its right and returns, or passes back, a **string** of the data type.
 ```
 const unknown1 = 'foo';
 console.log(typeof unknown1); // Output: string
