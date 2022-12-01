@@ -154,6 +154,7 @@
 // console.log(newSum);
 //====================================================================
 // Iterator Documentation
+
 // const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
 // check if there are words that are fewer than 6 characters long
 // console.log(words.some((word) => {
@@ -189,10 +190,4 @@ console.log(smallerNums);
 
 anyNegative = nums.some(num => num < 0);
 console.log(anyNegative);
-//====================================================================
-
-
-//====================================================================
-
-
 //====================================================================
