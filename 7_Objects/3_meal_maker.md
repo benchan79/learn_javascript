@@ -1,0 +1,2 @@
+# Meal Maker
+Create a function for a restaurant's website that allows them to set a meal and price each morning for Today’s Special. Use getters and setters to make sure anyone who uses the new function can generate a meal and a price for Today’s Special without errors.
