@@ -65,7 +65,7 @@ class Dog {
 In the example above, we add getter methods for `name` and `behavior`. Notice, we also prepended our property names with underscores (`_name` and `_behavior`), which indicate these properties should not be accessed directly. Under the getters, we add a method named `.incrementBehavior()`. When you call `.incrementBehavior()` on a Dog instance, it adds `1` to the `_behavior` property. Between each of our methods, we did not include commas.
 
 
-## Method Calls
+## 5. Method Calls
 The syntax for calling methods and getters on an instance is the same as calling them on an object — append the instance with a period, then the property or method name. For methods, you must also include opening and closing parentheses.
 ```
 class Dog {
@@ -126,7 +126,7 @@ In the example above, the Animal class contains the properties and methods that 
 
 The diagram below shows the relationships we want to create between the Animal, Cat, and Dog classes.
 
-<img src="https://content.codecademy.com/courses/learn-javascript-classes/diagrams/inheritance_diagram.svg"></img>
+<img src="img/inheritance_diagram.svg"></img>
 
 ## 7. Inheritance II
 The `Animal` class below contains the shared properties and methods of `Cat` and `Dog`.
