@@ -167,7 +167,7 @@ ghost.scare(); // 'BOO!'
 ```
 Now we have a `ghost` object as a result of calling `monsterFactory()` with the needed arguments. With `monsterFactory` in place, we don’t have to create an object literal every time we need a new monster. Instead, we can invoke the `monsterFactory` function with the necessary arguments to make a monster.
 
-## 5. Property Valye Shorthand
+## 5. Property Value Shorthand
 ES6 introduced some new shortcuts for assigning properties to variables known as *destructuring*.
 ```
 const monsterFactory = (name, age) => {
