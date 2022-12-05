@@ -5,7 +5,7 @@ Modules are reusable pieces of code in a file that can be exported and then impo
 
 Consider the diagram below of an imaginary program written in a file my_app.js:
 
-<img src="https://static-assets.codecademy.com/Courses/Learn-JavaScript/Modules/modular-program-diagram.svg" style="width: 50%;"></img>
+<img src="img/modular-program-diagram.svg" style="width: 50%;"></img>
 
 Note: The words “module” and “file” are often used interchangably
 
